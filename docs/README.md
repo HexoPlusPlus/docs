@@ -26,6 +26,7 @@ HexoPlusPlus~~也叫Hexo艹~~ 或者叫HPP、Hexo++，是一个基于`CloudFlare
 - 图形化安装，KV数据库
 - 全屏写作新体验
 - 登录验证码
+- 多用户登录
 - CloudFlare中间件，避免国内难以正常直接使用Github困扰，速度提升
 
 ## 功能
