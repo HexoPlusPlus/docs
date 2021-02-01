@@ -59,7 +59,8 @@
 默认为`*`，如果担心盗链，可以将其设置为博客域名
 
 ### `Github文档/图片仓库Token`
-能够修改github上存储文档/图片的Token，至少具有写入权和读取权，留空则导致文档功能无法使用.
+
+获得Token的用户至少能够修改github上存储文档/图片的Token，至少具有写入权和读取权，留空则导致文档功能无法使用.
 [Token获取](https://github.com/settings/tokens/new)
 
 ### `Github文档/图片仓库用户名` 、`Github文档/图片仓库仓库名` 、`Github文档/图片仓库路径`、`Github文档/图片仓库分支`  
