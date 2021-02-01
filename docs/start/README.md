@@ -44,7 +44,7 @@
 
 > 此处域名后面必须加`/*`
 
-> 如果你直接将HPP绑定在博客以下，并且您的博客是由CloudFlare作为CDN的，那么请将绑定路由设置为`youdomain/hpp/*`
+> 如果你直接将HPP绑定在博客以下，并且您的博客是由CloudFlare作为CDN的，那么请将绑定路由设置为`yourdomain/hpp/*`
 
 ## 安装
 
