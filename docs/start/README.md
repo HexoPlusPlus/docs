@@ -72,6 +72,8 @@
 
 > **如果存在`abc`文件夹下,那么路径为`/abc/`,若存在根目录下,则为`/`**
 
+> **这个地方大小写敏感！点名表扬Lete**
+
 ### `Global API Key`
 
 CloudFlare的Global API Key，用于修改Worker代码以实现自动更新，在[API 密钥](https://dash.cloudflare.com/profile/api-tokens)获取
