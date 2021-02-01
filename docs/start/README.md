@@ -26,6 +26,14 @@
 
 > 强烈建议两者加密保护安全。
 
+> 0.1.3版本及以上支持了多用户登录，多个用户名和密码请用英文符号`,`分割，并且一一对应
+
+> 例如：
+
+> hpp_username：A,B,C
+
+> hpp_paswword：A'sPassword,B'sPassword,C'sPassword
+
 再划到底下-KV 命名空间绑定-编辑变量-新增变量绑定-变量名称：KVNAME【此处不可更改】，KV命名空间：您之前写的空间名字，如图所示
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/5.png) 
