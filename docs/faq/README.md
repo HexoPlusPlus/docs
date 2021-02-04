@@ -89,5 +89,7 @@ HexoPlusPlus这么牛逼，完全可以另开发一套博客系统，为什么�
 表情插入后无法预览
 # B10：
 
-Editor.md的问题，无法识别路径中的`@`符号，<span class="heimu">这锅我不背</span>，我已提出Issues[#901](https://github.com/pandao/editor.md/issues/901)。
+~~Editor.md的问题，无法识别路径中的`@`符号，<span class="heimu">这锅我不背</span>，我已提出Issues[#901](https://github.com/pandao/editor.md/issues/901)。~~
+
+1.0.3版本已修复<span class="heimu">还是要我背</span>
 
