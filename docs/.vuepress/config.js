@@ -1,6 +1,6 @@
 module.exports = {
   title: 'HexoPlusPlus',
-  description: 'A powerful Hexo dashboard',
+  description: 'A Powerful&Beautiful Hexo Dashboard',
   head: [
     ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/icon.png' }],
   ],
