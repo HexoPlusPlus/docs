@@ -2,7 +2,7 @@ module.exports = {
   title: 'HexoPlusPlus',
   description: 'A powerful Hexo dashboard',
   head: [
-    ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/img/icon.png' }],
+    ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/icon.png' }],
   ],
   markdown: {
     lineNumbers: true

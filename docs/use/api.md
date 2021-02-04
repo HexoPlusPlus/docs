@@ -4,13 +4,7 @@
 
 ## `/hpp/api/getblogeractive` `GET`
 
-获取博主活跃时间，默认以js输出，可以直接以`<script src="https://{yourdomain}/hpp/api/getblogeractive"></script>`使用，此种方法会自动替换id为bloggeractivetime的html的元素
-
-返回实例：
-
-```js
-document.getElementById("bloggeractivetime").innerHTML='博主在39小时前活跃了一次'
-```
+获取博主活跃时间，默认以js输出，请前往[适配Hexo](/use/hexoinit)获取使用方法
 
 ## `/hpp/api/captchaimg` `GET`
 
@@ -28,13 +22,24 @@ hpptalk说说用户获取接口，返回格式：`JSON`
 [{"id":47,"time":"2021-1-31 22:12","name":"ChenYFan","avatar":"https://cdn.jsdelivr.net/gh/ChenYFan/CDN/img/avatar.png","content":"第一篇说说测试\n\n> 测试\n\n# 测试\n## 测试\n### 测试\n#### 测试\n##### 测试\n###### 测试\n\n```\n测试\n```\n\n![](https://cdn.jsdelivr.net/gh/ChenYFan-Tester/DailyGet@gh-pages/bingpic/bing.jpg)"},{"id":48,"time":"2021-1-31 22:13","name":"ChenYFan","avatar":"https://cdn.jsdelivr.net/gh/ChenYFan/CDN/img/avatar.png","content":"![](https://cdn.jsdelivr.net/gh/ChenYFan-tester/test@test/imagetest/1611994635000.png)"}]
 ```
 
+## `/hpp/api/twikoo` `POST`
+
+获取Twikoo评论内容，格式：
+
+```json
+{
+	//before: 1,//指上一个评论的创建时间戳，可选
+	path: ""//文章路径
+}
+```
+
 
 # 鉴权API
 
 
 ## `/hpp/admin/api/kick` `GET`
 
-博主手动签到，点击右上角小飞机，以任意性形式访问都能够刷新活跃时间。
+博主手动签到，点击右上角头像-签到，以任意性形式访问都能够刷新活跃时间。
 
 返回：
 
@@ -58,9 +63,11 @@ OK
 
 删除图片/文档，/后面是文件名。
 返回值：
+
 ```
 Delete Success
 ``` 
+
 返回状态与Github返回状态相同
 
 ## `/hpp/admin/api/getdoc/` `GET`
@@ -128,4 +135,30 @@ true
 
 ```
 false
+```
+
+## `/hpp/admin/api/inputtalk` `POST`
+
+导入artitalk接口
+
+## `/hpp/admin/api/del_all` `GET`
+
+销毁所有配置，说说等个人数据不会被销毁。
+
+## `/hpp/admin/api/get_config` `GET`
+
+返回所有配置
+
+## `/hpp/admin/api/edit_config` `POST`
+
+格式：
+
+```json
+{
+	index: index, //键值名称
+	value: value  //键值
+}
+```
+
+将会覆盖当前配置
 ```
