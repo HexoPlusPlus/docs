@@ -12,7 +12,20 @@
 
 5.HexoPlusPlus版本命名遵循Semantic Versioning 3.0.0，格式为`X.Y.Z`。在仅修订版本更新的情况下，不必重新配置。如`1.0.0`-`1.0.99`的更新都不需要重新配置。
 
+6.本站所需要的平台是[CloudFlare](https://cloudflare.com/)，如果你当前网络不适合使用，可以用[Better Cloudflare IP](https://github.com/badafans/better-cloudflare-ip) 获取最适合当前网络环境的CloudFlareIP(如`1.0.0.1`)，然后修改hosts文件重定向：
 
+```
+1.0.0.1 cloudflare.com
+1.0.0.1 dash.cloudflare.com
+1.0.0.1 sparrow.cloudflare.com
+1.0.0.1 cloudflareworkers.com
+1.0.0.1 assets.hcaptcha.com
+1.0.0.1 hcaptcha.com
+1.0.0.1 imgs.hcaptcha.com
+1.0.0.1 {your_workers_name}.{your_domain_name}.workers.dev
+```
+
+> 自行替换`{your_workers_name}`、`{your_domain_name}`
 
 ## 部署代码
 
