@@ -72,4 +72,4 @@ HexoPlusPlus是一个无服务器Hexo后端，实现云写作，集成了大部�
 - 说说功能
 - Twikoo加强
 
-点击快速上手，开始使用
+点击快速上手，开始使用 | [QQ群：467731779](https://jq.qq.com/?_wv=1027&k=rAcnhzqK)
