@@ -2,11 +2,11 @@
 
 开始之前，鄙人希望您能认识到以下几点
 
-1.我是Hexo用户【或者Hugo、vuepress**|**Typecho和Wordpress用户请点击右上角&times;】
+1.我是Hexo用户【或者Hugo、vuepress **|** Typecho和Wordpress用户请点击右上角&times;】
 
-2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI**|**依旧是通过本机上传生成静态网页的用户请点击右上角&times;】
+2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机上传生成静态网页的用户请点击右上角&times;】
 
-3.我的源代码部署在Github上【Gitlab以后有可能会支持**|**Coding永远不支持】
+3.我的源代码部署在Github上【会陆续增加Coding、Gitlab支持 **|** Gitee做梦去吧】
 
 4.HexoPlusPlus诞生的意义就是为了解决文件存储在Github上不方便更改的问题，并不是Hexo生成器，所以还是需要集成部署来生成静态文件。
 
