@@ -46,6 +46,10 @@ HexoPlusPlus~~也叫Hexo艹~~ 或者叫HPP、Hexo++，是一个基于`CloudFlare
 
 HexoPlusPlus是一个无服务器Hexo后端，实现云写作，集成了大部分动态博客的功能，致力于解决静态博客所有痛点。
 
+HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，辅助Hexo云端写作。
+
+众所周知，<span class="heimu">Hexo+HexoPlusPlus+Twikoo=Typecho</span>
+
 **本篇文档仅始用HexoPlusPlus1.0.x**
 
 **注意，HexoPlusPlus在使用前您的博客必须保证已完成集成部署**
