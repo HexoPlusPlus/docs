@@ -10,6 +10,10 @@
 
 4.HexoPlusPlus诞生的意义就是为了解决文件存储在Github上不方便更改的问题，并不是Hexo生成器，所以还是需要集成部署来生成静态文件。
 
+5.HexoPlusPlus版本命名遵循Semantic Versioning 3.0.0，格式为`X.Y.Z`。在仅修订版本更新的情况下，不必重新配置。如`1.0.0`-`1.0.99`的更新都不需要重新配置。
+
+
+
 ## 部署代码
 
  先下载，你可以直接从[Github](https://raw.githubusercontent.com/HexoPlusPlus/HexoPlusPlus/main/dist/index.js) 上下载，也可以用[JSdelivr](https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@main/dist/index.js) 加速下载，复制里面的内容。 
@@ -18,10 +22,13 @@
 
  点击KV选项，进入并创建一个KV桶，命名空间名称随意 
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/2.png) 
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/2.png) 
 
  新建一个Worker，将获得的源代码直接复制到里头，修改左上角三级域名【可选】，点击保存并部署。 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/1.png) 
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/1.png) 
+
+### 配置账户
+
 返回，先配置变量，`hpp_username`和`hpp_password`，这将分别为你的登录用户名和密码. 
 
 > 强烈建议两者加密保护安全。
@@ -36,11 +43,11 @@
 
 再划到底下-KV 命名空间绑定-编辑变量-新增变量绑定-变量名称：KVNAME【此处不可更改】，KV命名空间：您之前写的空间名字，如图所示
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/5.png) 
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/5.png) 
 
 绑定域名【可选】
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/11.png)
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/11.png)
 
 > 此处域名后面必须加`/*`
 
@@ -48,11 +55,14 @@
 
 ## 安装
 
+> **注意！**HexoPlusPlus安装时所有配置都没有默认值，请不要偷懒。如果实在没有所需的键值或不需要此功能，可以留空
+
 直接进入域名会得到错误页面，请在后面加上`/hpp/admin/login`再登录。
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/3.png)
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/4.png)
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/3.png)
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/4.png)
 
+> **注意！**HexoPlusPlus默认以HTTPS格式传输，外部链接也必须以HTTPS，否则会加载失败
 
 ### `域名` 
 指HexoPlusPlus绑定的域名，可以是上一步自定义的域名，也可以是CloudFlare分配的三级域名
@@ -66,16 +76,28 @@
 ### `跨域请求` 
 默认为`*`，如果担心盗链，可以将其设置为博客域名
 
+### `OwOJSON地址`
+
+表情功能，请填写OwO的JSON地址，向上兼容Twikoo的表情格式。
+
+### `面板背景图片`
+
+背景图片地址
+
 ### `Github文档/图片仓库Token`
 
 获得Token的用户至少能够修改github上存储文档/图片的Token，至少具有写入权和读取权，留空则导致文档功能无法使用.
 [Token获取](https://github.com/settings/tokens/new)
+
+此处不建议全选。
 
 ### `Github文档/图片仓库用户名` 、`Github文档/图片仓库仓库名` 、`Github文档/图片仓库路径`、`Github文档/图片仓库分支`  
 
 如果我存储文档的Github完整路径是`https://github.com/ChenYFan/blog/tree/master/source/_posts`，那么以上配置分别为`ChenYFan`、`blog`、`/source/_posts/`、`master`.
 
 这一切的前提都是您愿意将图片和文件存储在Github上。
+
+> 一般来说，Hexo的仓库路径是`/source/_posts/`，此处无需更改
 
 > **请注意！！！路径前后必须带`/`。**
 
@@ -89,7 +111,7 @@ CloudFlare的Global API Key，用于修改Worker代码以实现自动更新，�
 
 > 注意！这地方不是**API 令牌**，而是**API 密钥**
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/16.png)
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/16.png)
 
 点击查看，输入密码，复制即可
 
@@ -99,9 +121,11 @@ CloudFlare的Global API Key，用于修改Worker代码以实现自动更新，�
 
 在[部署代码](#部署代码)这一步中填写的三级域名名称，文档中的例子是`white-feather-f3eb`
 
+> 这地方不是你**绑定的域名**，这一步的用处是帮你更新源代码
+
 ### `Workers账户ID`
 
-![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/docs@master/docs/img/17.png)
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/17.png)
 
 Worker界面中的账户ID
 
@@ -112,5 +136,10 @@ Worker界面中的账户ID
 ### `是否自动签到` 
 
 指自动记录博主最近登录时间，开启会大量损耗KV写入限额，**不建议开启**。
+
+### `TwikooEnvId`
+
+Twikoo加强版需要，指Twikoo配置中EnvId。
+
 
 填写完毕，提交即可！现在，你将进入主页。[刷新之后还停留在配置页面？](/faq/#a2)
