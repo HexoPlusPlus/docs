@@ -68,14 +68,14 @@
 
 ## 安装
 
-> **注意！**HexoPlusPlus安装时所有配置都没有默认值，请不要偷懒。如果实在没有所需的键值或不需要此功能，可以留空
+> **注意！** HexoPlusPlus安装时所有配置都没有默认值，请不要偷懒。如果实在没有所需的键值或不需要此功能，可以留空
 
 直接进入域名会得到错误页面，请在后面加上`/hpp/admin/login`再登录。
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/3.png)
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/4.png)
 
-> **注意！**HexoPlusPlus默认以HTTPS格式传输，外部链接也必须以HTTPS，否则会加载失败
+> **注意！** HexoPlusPlus默认以HTTPS格式传输，外部链接也必须以HTTPS，否则会加载失败
 
 ### `域名` 
 指HexoPlusPlus绑定的域名，可以是上一步自定义的域名，也可以是CloudFlare分配的三级域名
