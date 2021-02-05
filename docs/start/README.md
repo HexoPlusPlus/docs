@@ -15,7 +15,7 @@
 
 一些给小白的参考链接：
 
-GithubAction：[https://zhuanlan.zhihu.com/p/170563000](https://zhuanlan.zhihu.com/p/170563000)
+GithubAction：[GitHub Actions 来自动部署 Hexo](https://zhuanlan.zhihu.com/p/170563000)
 
 Travis-CI：[鄙人早年经历-ChenYFan的博客](https://blog.cyfan.top/p/e626cb30.html)
 
