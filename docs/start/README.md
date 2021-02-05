@@ -6,7 +6,21 @@
 
 2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机上传生成静态网页的用户请点击右上角&times;】
 
-3.我的源代码部署在Github上【会陆续增加Coding、Gitlab支持 **|** Gitee做梦去吧】
+为什么一定要集成部署？你不集成部署那能叫Hexo吗？
+
+集成部署分三步：
+1.博客源文件传Github上去【**不是hexo d生成的静态文件！而是源文件！**】
+2.选择集成部署服务商
+3.创建集成部署，绑定集成部署
+
+一些给小白的参考链接：
+
+GithubAction：[https://blog.cyfan.top/p/e626cb30.html](https://zhuanlan.zhihu.com/p/170563000)
+Travis-CI：[鄙人早年经历-ChenYFan的博客](https://blog.cyfan.top/p/e626cb30.html)
+Vercel：**暂无** 【鄙人使用Vercel是Clone生成后的静态文件实现CDN加速】
+CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/posts/df35c5b1/) 【**此处源代码不能存储在Coding上，只能存在Github上**】
+
+3.我的源代码部署在Github上【这里指的是博客源代码存储于Github，与最终集成部署服务商、CDN无关，如果你将原代码存储在Gtihub，然后用其他的CI部署到CodingPages，这也是允许的】
 
 4.HexoPlusPlus诞生的意义就是为了解决文件存储在Github上不方便更改的问题，并不是Hexo生成器，所以还是需要集成部署来生成静态文件。
 
