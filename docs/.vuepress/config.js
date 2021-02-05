@@ -22,7 +22,8 @@ module.exports = {
           { text: '内置API',link: '/use/api'},
 		  { text: '适配Hexo',link: '/use/hexoinit'}
         ]
-      }        
+      },
+       { text: '项目地址', link: 'https://github.com/HexoPlusPlus/HexoPlusPlus' },{ text: 'QQ群', link: 'https://jq.qq.com/?_wv=1027&k=rAcnhzqK' }
     ]
   }
 };
