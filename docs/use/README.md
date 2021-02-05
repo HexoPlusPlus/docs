@@ -92,3 +92,19 @@ Anyway，以后可能会增加`ipfs图床`、`imgur图床`、`7bu图床`支持
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_7.png)
 
 > **配置修改切勿过于频繁，可能会出现提交了但没有显示的问题**
+
+# 备份
+
+进入KV桶，你将会看到以下配置：
+
+- `hpp_activetime` 活跃时间统计时间戳
+- `hpp_config` HPP的配置
+- `hpp_comment_access_token` TwikooAccessToken
+- `hpp_comment_refresh_token` TwikooRefreshToken
+- `hpp_talk_data` 说说数据
+- `hpp_talk_id` 说说当前id
+
+备份仅需要备份`hpp_config`、`hpp_talk_data`、`hpp_talk_id`。
+
+备份方式：`查看`-`下载`
+导入方式：`新增空白键值`-`编辑`-`上传值`
