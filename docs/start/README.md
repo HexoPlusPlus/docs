@@ -16,8 +16,11 @@
 一些给小白的参考链接：
 
 GithubAction：[https://blog.cyfan.top/p/e626cb30.html](https://zhuanlan.zhihu.com/p/170563000)
+
 Travis-CI：[鄙人早年经历-ChenYFan的博客](https://blog.cyfan.top/p/e626cb30.html)
+
 Vercel：**暂无** 【鄙人使用Vercel是Clone生成后的静态文件实现CDN加速】
+
 CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/posts/df35c5b1/) 【**此处源代码不能存储在Coding上，只能存在Github上**】
 
 3.我的源代码部署在Github上【这里指的是博客源代码存储于Github，与最终集成部署服务商、CDN无关，如果你将原代码存储在Gtihub，然后用其他的CI部署到CodingPages，这也是允许的】
@@ -40,6 +43,8 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 ```
 
 > 自行替换`{your_workers_name}`、`{your_domain_name}`
+
+7.HexoPlusPlus比较适合那些使用Hexo有一定经验，并且即使是集成了也存在困扰的用户。如果你是`Hexo小白/萌新`，那么我们建议先在本地部署完毕，使用熟练后再使用集成。
 
 ## 部署代码
 
