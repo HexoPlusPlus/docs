@@ -45,10 +45,12 @@
 
 ## 引入
 
+> **0.1.5版本及以上静态文件不再存储在/dist/文件夹下，而直接存储在根目录下**
+
 ```html
 <!-- 引用 HexoPlusPlus_Talk组件 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.4/dist/talk.css" /> 
-<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.4/dist/talk_user.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.5/talk.css" /> 
+<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.5/talk_user.js"></script>
 <!-- 创建HexoPlusPlus_Talk容器 -->
 <div id="hpp_talk"></div>
 <!-- 激活HexoPlusPlus_Talk -->
@@ -67,7 +69,7 @@ start: 0//从第几条开始
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_9.png)
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_10.png)
 
-# Twikoo加强功能
+# 评论系统-Twikoo加强功能
 
 Twikoo-一个简洁、安全、免费的静态网站评论系统，基于腾讯云开发。
 
