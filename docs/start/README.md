@@ -4,7 +4,7 @@
 
 1.我是Hexo用户【或者Hugo、vuepress **|** Typecho和Wordpress用户请点击右上角&times;】
 
-2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机上传生成静态网页的用户请点击右上角&times;】
+2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机`hexo d`上传生成静态网页的用户请点击右上角&times;】
 
 为什么一定要集成部署？你不集成部署那能叫Hexo吗？
 
