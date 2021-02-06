@@ -55,8 +55,8 @@
 
 ```html
 <!-- 引用 HexoPlusPlus_Talk组件 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.7/talk.css" /> 
-<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.7/talk_user.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.8/talk.css" /> 
+<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.8/talk_user.js"></script>
 <!-- 创建HexoPlusPlus_Talk容器 -->
 <div id="hpp_talk"></div>
 <!-- 激活HexoPlusPlus_Talk -->
