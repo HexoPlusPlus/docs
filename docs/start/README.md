@@ -46,7 +46,9 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 7.HexoPlusPlus比较适合那些使用Hexo有一定经验，并且即使是集成了也存在困扰的用户。如果你是`Hexo小白/萌新`，那么我们建议先在本地部署完毕，使用熟练后再使用集成。
 
-8.CloudFlare注册时可能会需要至少一个域名绑定，此时请不要更改NS服务器，使用[BNXB](https://cdn.bnxb.com/)第三方接入CloudFlare，然后再回到CloudFlare使用Worker，实现自定义ip解析
+8.CloudFlare注册时可能会需要至少一个域名绑定，此时请不要更改NS服务器，使用[BNXB](https://cdn.bnxb.com/)第三方接入CloudFlare，然后再回到CloudFlare使用Worker，实现自定义ip解析.
+
+9.另外...如果你就算是自选ip也无法忍受时,可以用官方仓库的[CloudFlare2Vercel](https://github.com/HexoPlusPlus/CloudFlare2Vercel),用Vercel中继CloudFlareWorker,获得使用加速[但Worker还是要部署的]
 
 ## 部署代码
 
