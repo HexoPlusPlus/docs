@@ -53,6 +53,7 @@ CloudFlare，慢！
 
 # B5：
 Vercel是不可能的，这辈子都是不可能的；Vercel可没有像KV一样的键值存储，两者也难以同步。
+当然如果你就算是自选ip也无法忍受时,可以用官方仓库的CloudFlare2Vercel,用Vercel中继CloudFlareWorker,获得使用加速，**【但Worker还是要部署的】**
 
 # A6：
 为什么直接打开提示Error？
