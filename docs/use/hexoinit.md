@@ -2,7 +2,9 @@
 
 > 功能旁边的键值为开启该功能必须所需的配置，一个都不能少
 
-# 活跃时间 `零配置`
+# 活跃时间 
+
+## NEED `零配置`
 
 首先，修改主题模板，一般为`footer.ejs`，在你需要的地方塞入以下代码：
 
@@ -37,7 +39,9 @@
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_8.png)
 
-# 说说功能 `零配置`
+# 说说功能 
+
+## NEED `零配置`
 
 说说功能是HexoPlusplus一大典型功能，简约而不简单，大小仅`14.4kb+2.6kb(JS+CSS,gzipped)`，较同类产品[artitalk](https://artitalk.js.org/) `110kb(JS,gzipped)`小五倍。
 
@@ -71,7 +75,9 @@ start: 0//从第几条开始
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_9.png)
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_10.png)
 
-# 评论系统-Twikoo加强功能 `hpp_twikoo_envId`
+# 评论系统-Twikoo加强功能 
+
+## NEED `hpp_twikoo_envId`
 
 Twikoo-一个简洁、安全、免费的静态网站评论系统，基于腾讯云开发。
 
