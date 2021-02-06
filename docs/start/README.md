@@ -19,7 +19,7 @@ GithubAction：[GitHub Actions 来自动部署 Hexo](https://zhuanlan.zhihu.com/
 
 Travis-CI：[鄙人早年经历-ChenYFan的博客](https://blog.cyfan.top/p/e626cb30.html)
 
-Vercel：**暂无** 【鄙人使用Vercel是Clone生成后的静态文件实现CDN加速】
+Vercel：[简单搭建 Hexo 博客](https://note.yfun.top/p/simply-build-your-hexo-blog/) 
 
 CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/posts/df35c5b1/) 【**此处源代码不能存储在Coding上，只能存在Github上**】
 
@@ -100,23 +100,27 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 > **注意！** HexoPlusPlus默认以HTTPS格式传输，外部链接也必须以HTTPS，否则会加载失败
 
-### `域名` 
+> `必填`指此键值必须要填写,若不填写可能会导致功能异常
+
+> 1.0.7版及以上对必填项目：`hpp_domain` `hpp_username` `hpp_title` `hpp_usericon` `hpp_cors` `hpp_autodate` `hpp_OwO` `hpp_back`做了缺省处理，实现了0配置使用
+
+### `域名` `必填`
 指HexoPlusPlus绑定的域名，可以是上一步自定义的域名，也可以是CloudFlare分配的三级域名
 
-### `头像地址` 
+### `头像地址` `必填`
 ~~就是头像地址呗~~
 
-### `标题` 
+### `标题` `必填`
 ~~同上~~
 
-### `跨域请求` 
+### `跨域请求` `必填`
 默认为`*`，如果担心盗链，可以将其设置为博客域名
 
-### `OwOJSON地址`
+### `OwOJSON地址` `必填`
 
 表情功能，请填写OwO的JSON地址，向上兼容Twikoo的表情格式。
 
-### `面板背景图片`
+### `面板背景图片` `必填`
 
 背景图片地址
 
@@ -169,7 +173,7 @@ Worker界面中的账户ID
 
 指您CloudFlare登陆时所需的邮箱
 
-### `是否自动签到` 
+### `是否自动签到` `必填`
 
 指自动记录博主最近登录时间，开启会大量损耗KV写入限额，**不建议开启**。
 
