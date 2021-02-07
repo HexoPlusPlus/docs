@@ -22,17 +22,13 @@
 
 ```html
 <script type="text/javascript">
-  function loadtime() {
-    var ele = document.createElement("script");
-    ele.src = "https://{yourdomain}/hpp/api/getblogeractive";
-    document.body.appendChild(ele);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", loadtime, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", loadtime);
-  else window.onload = loadtime;
-</script>
+document.onreadystatechange = function(){
+    if(document.readyState == "complete"){
+        var ele = document.createElement("script");
+        ele.src = "https://{yourdomain}/hpp/api/getblogeractive";
+        document.body.appendChild(ele);
+     }
+}
 ```
 
 请自行替换`{yourdomain}`
@@ -51,12 +47,12 @@
 
 ## 引入
 
-> **0.1.5版本及以上静态文件不再存储在/dist/文件夹下，而直接存储在根目录下**
+> **1.0.5版本及以上静态文件不再存储在/dist/文件夹下，而直接存储在根目录下**
 
 ```html
 <!-- 引用 HexoPlusPlus_Talk组件 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.8/talk.css" /> 
-<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.8/talk_user.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.9/talk.css" /> 
+<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.9/talk_user.js"></script>
 <!-- 创建HexoPlusPlus_Talk容器 -->
 <div id="hpp_talk"></div>
 <!-- 激活HexoPlusPlus_Talk -->
