@@ -29,6 +29,7 @@ document.onreadystatechange = function(){
         document.body.appendChild(ele);
      }
 }
+</script>
 ```
 
 请自行替换`{yourdomain}`
