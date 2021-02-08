@@ -124,6 +124,14 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 背景图片地址
 
+### `懒加载图片`
+
+懒加载的占位图片
+
+### `高亮样式`
+
+代码高亮样式，默认为`github`
+
 ### `Github文档/图片仓库Token`
 
 获得Token的用户至少能够修改github上存储文档/图片的Token，至少具有写入权和读取权，留空则导致文档功能无法使用.
@@ -131,19 +139,26 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 此处不建议全选。
 
-### `Github文档/图片仓库用户名` 、`Github文档/图片仓库仓库名` 、`Github文档/图片仓库路径`、`Github文档/图片仓库分支`  
+### `Github文档仓库用户名` 、`Github文档仓库仓库名` 、`Github文档仓库根`、`Github文档仓库分支`
 
-如果我存储文档的Github完整路径是`https://github.com/ChenYFan/blog/tree/master/source/_posts`，那么以上配置分别为`ChenYFan`、`blog`、`/source/_posts/`、`master`.
+> 在1.1.0版本中,我们移除了对其它静态站点生成的支持,如果你想使用hexoplusplus但不是用hexo,可以使用1.0.\*最后一个版本-1.0.9
 
-这一切的前提都是您愿意将图片和文件存储在Github上。
+以我的博客为例:`https://github.com/ChenYFan/blog`
 
-> 一般来说，Hexo的仓库路径是`/source/_posts/`，此处无需更改
+`用户名`:指存储仓库的仓库的用户名,我的是`ChenYFan`
+`仓库名`:指存储仓库的仓库的仓库名,我的是`blog`
+`分支`:一般为`master`,或`main`,我的是`master`
+`根`:特指Hexo源代码存储的位置,如果你是存在根目录的,那么将根设置为`/`,如果是存储在`abc`文件夹的,那将根设置为`/abc/`**前后务必`/`带**,我的是`/`
 
-> **请注意！！！路径前后必须带`/`。**
+### `Github图片仓库用户名` 、`Github图片仓库仓库名` 、`Github图片仓库路径`、`Github图片仓库分支`
 
-> **如果存在`abc`文件夹下,那么路径为`/abc/`,若存在根目录下,则为`/`**
+以我的图片仓库为例:`https://github.com/ChenYFan/CDN/tree/master/img/hpp_upload`
 
-> **这个地方大小写敏感！点名表扬Lete**
+`用户名`:指存储仓库的仓库的用户名,我的是`ChenYFan`
+`仓库名`:指存储仓库的仓库的仓库名,我的是`CDN`
+`分支`:一般为`master`,或`main`,我的是`master`
+`根`:特指Hexo源代码存储的位置,如果你是存在根目录的,那么将根设置为`/`,如果是存储在`abc`文件夹的,那将根设置为`/abc/`**前后务必`/`带**,我的是`/img/hpp_upload/`
+
 
 ### `Global API Key`
 
