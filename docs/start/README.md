@@ -2,7 +2,7 @@
 
 开始之前，鄙人希望您能认识到以下几点
 
-1.我是Hexo用户【或者Hugo、vuepress **|** Typecho和Wordpress用户请点击右上角&times;】
+1.我是Hexo用户【~~或者Hugo、vuepress~~仅支持Hexo **|** Typecho和Wordpress用户请点击右上角&times;】
 
 2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机`hexo d`上传生成静态网页的用户请点击右上角&times;】
 
