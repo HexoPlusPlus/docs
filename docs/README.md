@@ -50,7 +50,7 @@ HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，�
 
 众所周知，<span class="heimu">Hexo+HexoPlusPlus+Twikoo=Typecho</span>
 
-**本篇文档仅始用HexoPlusPlus1.0.x**
+**本篇文档仅始用HexoPlusPlus1.1.x**
 
 **注意，HexoPlusPlus在使用前您的博客必须保证已完成集成部署**
 
