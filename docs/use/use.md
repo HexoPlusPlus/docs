@@ -23,7 +23,7 @@
 
 # 写作 
 
-## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
+## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo` `hpp_githubdocroot`
 
 写作功能是HexoPlusPlus最典型的功能，也是最`特色`的功能，支持MarkDown、在线预览，并集成了图床功能。
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_3.png)
@@ -58,22 +58,35 @@ Anyway，以后可能会增加`ipfs图床`、`imgur图床`、`7bu图床`支持
 
 支持OwO表情格式[表情插入后无法预览？](/faq/#a10)
 
+## 草稿功能
+
+文章默认存储在`{root}source/_posts/`下，Hexo会从此处获取并渲染，草稿默认存储在`{root}source/_drafts/`,Hexo不会渲染.
+
+草稿的获取与上传有不同的按钮,列表中会同时列出草稿与文章,若文章存在发布处但不存在草稿处,将无法通过获取草稿获取到文章.
+
+草稿写完后,点击发布文章,草稿将会上传到发布目录,同时草稿不会被删除.
+
+在文章管理页草稿和文章会同时列出,并标记为`已发布`和`未发布`
+
+
 # 文件管理 
 
 
 
 ## 文章管理 
 
-## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
+## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo` `hpp_githubdocroot`
 
 > 文档管理用的方式是单文件获取，这样可以减少列表时间，但是不能获取超过2MB的文档
+
+> 支持草稿获取
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_4.png)
 
 
 ## 图片管理 
 
-## NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo`
+## NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo` `hpp_githubimagepath`
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_5.png)
 
