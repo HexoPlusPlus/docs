@@ -61,7 +61,7 @@ HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，�
 - 图形化安装，KV数据库
 - 登录验证码
 - 多用户登录
-- EditorMD编辑器
+- 高度自适应编辑器,手机端流畅写作
 - 全主题适配
 - Material Dashboard，细腻书写新体验
 - 快,服务端处理不超过10ms<span class="heimu">主要是CloudFlare的限制，很多高负荷运算只能拉到前端处理</span>
