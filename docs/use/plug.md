@@ -10,7 +10,7 @@
 
 ## ButterFly
 
-(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Butter_Fly_1.css) - 由[2X-ercha](https://noionion.top/)
+(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Butter_Fly_1.css) - 由[2X-ercha](https://noionion.top/),适配ButterFly主题
 
 # 面板插件
 
