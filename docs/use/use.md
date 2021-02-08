@@ -23,7 +23,7 @@
 
 # 写作 
 
-## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
+## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo` `hpp_githubdocroot`
 
 写作功能是HexoPlusPlus最典型的功能，也是最`特色`的功能，支持MarkDown、在线预览，并集成了图床功能。
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_3.png)
@@ -64,16 +64,18 @@ Anyway，以后可能会增加`ipfs图床`、`imgur图床`、`7bu图床`支持
 
 ## 文章管理 
 
-## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
+## NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo` `hpp_githubdocroot`
 
 > 文档管理用的方式是单文件获取，这样可以减少列表时间，但是不能获取超过2MB的文档
+
+> 支持草稿获取
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_4.png)
 
 
 ## 图片管理 
 
-## NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo`
+## NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo` `hpp_githubimagepath`
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_5.png)
 
