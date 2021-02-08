@@ -148,8 +148,11 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 以我的博客为例:`https://github.com/ChenYFan/blog`
 
 `用户名`:指存储仓库的仓库的用户名,我的是`ChenYFan`
+
 `仓库名`:指存储仓库的仓库的仓库名,我的是`blog`
+
 `分支`:一般为`master`,或`main`,我的是`master`
+
 `根`:特指Hexo源代码存储的位置,如果你是存在根目录的,那么将根设置为`/`,如果是存储在`abc`文件夹的,那将根设置为`/abc/`**前后务必`/`带**,我的是`/`
 
 ### `Github图片仓库用户名` 、`Github图片仓库仓库名` 、`Github图片仓库路径`、`Github图片仓库分支`
@@ -157,8 +160,11 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 以我的图片仓库为例:`https://github.com/ChenYFan/CDN/tree/master/img/hpp_upload`
 
 `用户名`:指存储仓库的仓库的用户名,我的是`ChenYFan`
+
 `仓库名`:指存储仓库的仓库的仓库名,我的是`CDN`
+
 `分支`:一般为`master`,或`main`,我的是`master`
+
 `根`:特指Hexo源代码存储的位置,如果你是存在根目录的,那么将根设置为`/`,如果是存储在`abc`文件夹的,那将根设置为`/abc/`**前后务必`/`带**,我的是`/img/hpp_upload/`
 
 
