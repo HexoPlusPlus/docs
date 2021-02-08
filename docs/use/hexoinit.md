@@ -72,7 +72,7 @@ themecss列表：
 
 |提供者|链接|说明|
 |---|---|---|
-|2X-ercha|[https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Butter_Fly_1.css]|[https://noionion.top/14413.html]适用于ButterFly|
+|2X-ercha|(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Butter_Fly_1.css)|(https://noionion.top/14413.html)适用于ButterFly|
 
 > 注意锁定版本，避免因不兼容导致的问题
 
