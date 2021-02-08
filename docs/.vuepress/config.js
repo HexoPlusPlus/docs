@@ -18,9 +18,9 @@ module.exports = {
       {
         text: '如何使用',
         items: [
-          { text: '正常玩法', link: '/use/' },
+          { text: '正常玩法', link: '/use/use' },
           { text: '内置API',link: '/use/api'},
-		  { text: '适配Hexo',link: '/use/hexoinit'}
+	{ text: '适配Hexo',link: '/use/hexoinit'},{ text: '插件列表',link: '/use/plug'}
         ]
       },
        { text: '项目地址', link: 'https://github.com/HexoPlusPlus/HexoPlusPlus' },{ text: 'QQ群', link: 'https://jq.qq.com/?_wv=1027&k=rAcnhzqK' }
