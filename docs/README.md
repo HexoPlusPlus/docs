@@ -66,6 +66,7 @@ HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，�
 - Material Dashboard，细腻书写新体验
 - 快,服务端处理不超过10ms<span class="heimu">主要是CloudFlare的限制，很多高负荷运算只能拉到前端处理</span>
 - 高度自适应，全平台写作
+- 自定义程度高,支持配置外部插件
 
 
 ## 功能
