@@ -67,6 +67,8 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 返回，先配置变量，`hpp_username`和`hpp_password`，这将分别为你的登录用户名和密码. 
 
+以及一个`hpp_captcha`,`False`为关闭，`True`为开启验证码
+
 > 强烈建议两者加密保护安全。
 
 > 0.1.3版本及以上支持了多用户登录，多个用户名和密码请用英文符号`,`分割，并且一一对应
