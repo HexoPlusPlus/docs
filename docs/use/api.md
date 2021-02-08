@@ -16,11 +16,20 @@
 
 ![](https://blogadmin.cyfan.top/hpp/api/captchaimg)
 
-## `/hpp/api/gethpptalk` `GET` 
+## `/hpp/api/gethpptalk` `POST` 
 
 ### NEED `零配置`
 
 hpptalk说说用户获取接口，返回格式：`JSON`
+
+POST数据:
+
+```json
+{
+	limit:10, //只获取10条
+	start:0//从第0条开始
+}
+```
 
 返回实例
 
@@ -59,7 +68,7 @@ OK
 
 ## `/hpp/admin/api/adddoc/` `POST` 
 
-### NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
+### NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo` `hpp_githubdocroot`
 
 增加文档，/后面是文件名，以post提交base64后的文件既可。
 
@@ -67,13 +76,15 @@ OK
 
 ## `/hpp/admin/api/addimage/` `POST` 
 
-### NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo`
+### NEED `hpp_githubimagetoken` `hpp_githubimagebranch` `hpp_githubimageusername` `hpp_githubimagerepo` `hpp_githubmagepath`
 
 增加图片，/后面是后缀名，以post提交base64后的文件既可
 返回值是jsd加速连接。
 
 
-## `/hpp/admin/api/deldoc/` & `/hpp/admin/api/delimage/` `POST` 
+## `/hpp/admin/api/deldoc/` & `/hpp/admin/api/deldraft/` & `/hpp/admin/api/delimage/` `POST` 
+
+删除文章、草稿、图片
 
 ### NEED `GithubALL`
 
@@ -86,12 +97,16 @@ Delete Success
 
 返回状态与Github返回状态相同
 
-## `/hpp/admin/api/getdoc/` `GET` 
+## `/hpp/admin/api/getdoc/` & `/hpp/admin/api/getdraft/` `GET` 
+
+获取文章/草稿内容
 
 ### NEED `hpp_githubdoctoken` `hpp_githubdocbranch` `hpp_githubdocusername` `hpp_githubdocrepo`
 获取文档，此处不用jsd获取的原因是缓存更新太慢，所以用CloudFlare中间件中继
 
-## `/hpp/admin/api/getlist` & `/hpp/admin/api/getimglist` 
+## `/hpp/admin/api/getlist` & `/hpp/admin/api/get_draftlist` & `/hpp/admin/api/getimglist` `GET`
+
+获取文章/草稿/图片列表
 
 ### NEED `GithubALL`
 
@@ -181,13 +196,13 @@ false
 
 销毁所有配置，说说等个人数据不会被销毁。
 
-## `/hpp/admin/api/get_config` `GET` `零配置`
+## `/hpp/admin/api/get_config` `GET`
 
 ### NEED `零配置`
 
 返回所有配置
 
-## `/hpp/admin/api/edit_config` `POST` `零配置`
+## `/hpp/admin/api/edit_config` `POST`
 
 ### NEED `零配置`
 
@@ -201,5 +216,11 @@ false
 ```
 
 将会覆盖当前配置
+
+## `/hpp/admin/api/del_config` `POST` 
+
+### NEED `零配置`
+
+删除键值为post数据的配置值
 
 
