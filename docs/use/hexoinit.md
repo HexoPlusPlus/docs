@@ -74,7 +74,12 @@ start: 0,//从第几条开始
 
 > HPP迭代较快，如果你有意向将说说加入您的主题，请确保增加一个CDN版本号配置
 
-> HPP前端与后端版本不兼容时**可能**会出错，请确保两者版本均为最新
+> HPP前端与后端版本不兼容时**可能**会出错，请确保两者版本均为最新，或者你可以使用这个:
+
+```url
+https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@latest/talk_user.js
+https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@latest/talk.css
+```
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_9.png)
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_10.png)
