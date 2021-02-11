@@ -9,3 +9,7 @@ MengD仅支持HPP_Talk
 ## https://github.com/volantis-x/hexo-theme-volantis
 
 volantis在2/8的dev分支中仅支持HPP_Talk
+
+## https://github.com/jerryc127/hexo-theme-butterfly
+
+ButterFly在2/11的dev分支中仅支持HPP_Talk
