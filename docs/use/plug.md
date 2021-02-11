@@ -10,7 +10,15 @@
 
 ## ButterFly
 
-(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Butter_Fly_1.css) - 由[2X-ercha](https://noionion.top/),适配ButterFly主题
+(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/bfonion.css) 
+- 由[2X-ercha](https://noionion.top/),适配ButterFly主题
+
+
+(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Fuitrt.css) 
+- 由[Hajeekn](https://slqwq.cn/),适配ButterFly主题
+
+(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/theme/hpp_user_talk/Pofato.css) 
+- 由[Hajeekn](https://slqwq.cn/),适配ButterFly暗色主题
 
 # 面板插件
 
@@ -20,4 +28,5 @@
 
 ## CSS
 
-(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/style/heimu.css) - 由[我](https://blog.cyfan.top)提供,仿照萌娘黑幕 
+(https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/plugin/style/heimu.css) 
+- 由[我](https://blog.cyfan.top)提供,仿照萌娘黑幕 
