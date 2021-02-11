@@ -52,8 +52,8 @@ document.onreadystatechange = function(){
 
 ```html
 <!-- 引用 HexoPlusPlus_Talk组件 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.1.0/talk.css" /> 
-<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.1.0/talk_user.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.1.1/talk.css" /> 
+<script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.1.1/talk_user.js"></script>
 <!-- 创建HexoPlusPlus_Talk容器 -->
 <div id="hpp_talk"></div>
 <!-- 激活HexoPlusPlus_Talk -->
@@ -71,6 +71,10 @@ start: 0,//从第几条开始
 [themecss列表](/use/plug)
 
 > 注意锁定版本，避免因不兼容导致的问题
+
+> HPP迭代较快，如果你有意向将说说加入您的主题，请确保增加一个CDN版本号配置
+
+> HPP前端与后端版本不兼容时**可能**会出错，请确保两者版本均为最新
 
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_9.png)
 ![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_10.png)
