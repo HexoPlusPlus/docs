@@ -14,7 +14,7 @@
 
 获取验证码的图像，来自生成对抗网络thispersondoesnotexist以拦截机器人
 
-![](https://blogadmin.cyfan.top/hpp/api/captchaimg)
+![](https://admin.cyfan.top/hpp/api/captchaimg)
 
 ## `/hpp/api/gethpptalk` `POST` 
 
@@ -145,6 +145,19 @@ OK
 ### NEED `零配置`
 
 删除单个说说。
+
+POST数据为说说的id。
+
+返回：
+
+```
+OK
+```
+
+## `/hpp/admin/api/visibletalk` `POST`
+### NEED `零配置`
+
+修改指定说说可见性。
 
 POST数据为说说的id。
 
