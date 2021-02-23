@@ -50,7 +50,7 @@ HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，�
 
 众所周知，<span class="heimu">Hexo+HexoPlusPlus+Twikoo=Typecho</span>
 
-**本篇文档仅始用HexoPlusPlus1.1.x**
+**本篇文档仅始用HexoPlusPlus1.2.x**
 
 **注意，HexoPlusPlus在使用前您的博客必须保证已完成集成部署**
 
@@ -62,11 +62,13 @@ HexoPlusPlus不是Hexo，也不是静态网页生成器，它是一个插件，�
 - 登录验证码
 - 多用户登录
 - 高度自适应编辑器,手机端流畅写作,支持代码高亮,支持草稿写作,支持随时备份,允许上传文件,高度适配自带图床
+- 面板支持暗色模式
 - 全主题适配
 - Material Dashboard，细腻书写新体验
 - 快,服务端处理不超过10ms<span class="heimu">主要是CloudFlare的限制，很多高负荷运算只能拉到前端处理</span>
 - 高度自适应，全平台写作
 - 自定义程度高,支持配置外部插件
+- 支持私有仓库
 
 
 ## 功能

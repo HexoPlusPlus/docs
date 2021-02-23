@@ -1,6 +1,10 @@
 # 快速上手
 
-开始之前，鄙人希望您能认识到以下几点
+
+
+<details>
+    <summary>开始之前，鄙人希望您能认识到以下几点【点击展开】</summary>
+
 
 1.我是Hexo用户【~~或者Hugo、vuepress~~仅支持Hexo **|** Typecho和Wordpress用户请点击右上角&times;】
 
@@ -52,6 +56,8 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 10.如果你有幸获得了**CloudFlarePage**静态构建内测资格，并且您只用CloudFlare作为前端CDN......那么恭喜您！获得了使用HexoPlusPlus的最佳选择，0回源，最高速度加载，并且无缝贴合了HexoPlusPlus强大的后端编辑功能。
 
+</details>
+
 ## 部署代码
 
  先下载，你可以直接从[Github](https://raw.githubusercontent.com/HexoPlusPlus/HexoPlusPlus/main/index.js) 上下载，也可以用[JSdelivr](https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@main/index.js) 加速下载，复制里面的内容。 
@@ -95,7 +101,7 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 ## 安装
 
-> **注意！** HexoPlusPlus安装时所有配置都没有默认值，请不要偷懒。如果实在没有所需的键值或不需要此功能，可以留空
+> **注意！** 并不是所有的安装项都要填。HexoPlusPlus安装时配置项较多，如果你实在不想填，可以留空，部分必填值会直接缺省。
 
 直接进入域名会得到错误页面，请在后面加上`/hpp/admin/login`再登录。
 
@@ -106,7 +112,6 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 > `必填`指此键值必须要填写,若不填写可能会导致功能异常
 
-> 1.0.7版及以上对必填项目：`hpp_domain` `hpp_username` `hpp_title` `hpp_usericon` `hpp_cors` `hpp_autodate` `hpp_OwO` `hpp_back`做了缺省处理，实现了0配置使用
 
 ### `域名` `必填`
 指HexoPlusPlus绑定的域名，可以是上一步自定义的域名，也可以是CloudFlare分配的三级域名
@@ -135,6 +140,35 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 ### `高亮样式`
 
 代码高亮样式，默认为`github`
+
+### `面板选项卡颜色`
+
+指选项卡颜色
+
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_13.png)
+
+
+目前支持: `purple` \| `azure` \| `green` \| `orange` \| `danger` \| `rose`
+
+默认为`rose`
+
+### `面板选项框颜色`
+
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_14.png)
+
+目前支持`black` \| `white` \| `default`
+
+注意在暗色模式下此选项会固定为`default`且无法更改
+
+### `面板主题色`
+
+![](https://cdn.jsdelivr.net/gh/HexoPlusPlus/CDN@master/doc_img/b_15.png)
+
+目前支持`dark` \| `light` 
+
+### `列表限制数量`
+
+单次列表获取限额,默认为`10`
 
 ### `Github文档/图片仓库Token`
 
