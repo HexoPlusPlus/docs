@@ -18,7 +18,7 @@ ButterFly用户请安装`hexo-butterfly-hpptalk`或自行引入
 
 
 <details>
-    <summaryButterFly插件安装方式</summary>
+    <summary>ButterFly插件安装方式</summary>
 
 1. 前期部署
     参考[hexoplusplus 文档- 快速上手](https://hexoplusplus.js.org/start/)
