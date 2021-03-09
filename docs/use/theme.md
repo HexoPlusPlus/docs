@@ -16,9 +16,6 @@ volantis在2/8的dev分支中仅支持HPP_Talk
 
 ButterFly用户请安装`hexo-butterfly-hpptalk`或自行引入
 
-## https://github.com/hifun-team/hexo-theme-miracle
-
-Miracle 主题在 `v1.5.5` 版本后支持 HPP_Talk 与签到
 
 
 ### 安装
@@ -54,3 +51,8 @@ Miracle 主题在 `v1.5.5` 版本后支持 HPP_Talk 与签到
   | css | 【可选】更换hpptalk 的CSS CDN（默认`https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@latest/talk.css`） |
   | option | 【可选】hpptalk 需要的额外配置 |
   | front_matter | 【可选】hpptalk 页面的front_matter 配置 |
+
+
+## https://github.com/hifun-team/hexo-theme-miracle
+
+Miracle 主题在 `v1.5.5` 版本后支持 HPP_Talk 与签到
