@@ -8,7 +8,7 @@
 
 1.我是Hexo用户【~~或者Hugo、vuepress~~仅支持Hexo **|** Typecho和Wordpress用户请点击右上角&times;】
 
-2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【**CloudFlarePage**【最佳选择】、GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机`hexo d`上传生成静态网页的用户请点击右上角&times;】
+2.我已经实现了[集成部署](https://hexo.io/zh-cn/docs/github-pages) 【GithubAction、Vercel、Travis-CI、GitlabCI、CodingCI **|** 依旧是通过本机`hexo d`上传生成静态网页的用户请点击右上角&times;】
 
 为什么一定要集成部署？你不集成部署那能叫Hexo吗？
 
@@ -54,7 +54,7 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 
 9.另外...如果你就算是自选ip也无法忍受时,可以用官方仓库的[CloudFlare2Vercel](https://github.com/HexoPlusPlus/CloudFlare2Vercel),用Vercel中继CloudFlareWorker,获得使用加速[但Worker还是要部署的]
 
-10.如果你有幸获得了**CloudFlarePage**静态构建内测资格，并且您只用CloudFlare作为前端CDN......那么恭喜您！获得了使用HexoPlusPlus的最佳选择，0回源，最高速度加载，并且无缝贴合了HexoPlusPlus强大的后端编辑功能。
+10.使用CloudFlarePage的用户请注意，由于CFPage的路由规则与用户配置不同，所以你无法将HPP直接绑定在CFPage目录上，需要额外使用其它域名。
 
 </details>
 
