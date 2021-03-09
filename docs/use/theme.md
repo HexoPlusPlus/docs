@@ -17,8 +17,8 @@ volantis在2/8的dev分支中仅支持HPP_Talk
 ButterFly用户请安装`hexo-butterfly-hpptalk`或自行引入
 
 
-
-### 安装
+<details>
+    <summaryButterFly插件安装方式</summary>
 
 1. 前期部署
     参考[hexoplusplus 文档- 快速上手](https://hexoplusplus.js.org/start/)
@@ -52,6 +52,7 @@ ButterFly用户请安装`hexo-butterfly-hpptalk`或自行引入
   | option | 【可选】hpptalk 需要的额外配置 |
   | front_matter | 【可选】hpptalk 页面的front_matter 配置 |
 
+</details>
 
 ## https://github.com/hifun-team/hexo-theme-miracle
 
