@@ -36,6 +36,8 @@ jobs:
       run: vuepress build docs
     - name: CNMAE
       run: echo "hexoplusplus.js.org" > docs/.vuepress/dist/CNAME
+    - name: GoogleSearch
+      run: mv ./google270a4bc486b01c41.html ./docs/.vuepress/dist/google270a4bc486b01c41.html
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
