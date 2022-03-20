@@ -59,6 +59,8 @@ CodingCI：[Coding持续集成实现Hexo自动化部署](https://colsrch.cn/post
 </details>
 
 ## 部署代码
+### 视频教程
+<iframe src="//player.bilibili.com/player.html?aid=594964760&bvid=BV1Lq4y1v7xV&cid=554489761&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
  先下载，你可以直接从[Github](https://raw.githubusercontent.com/HexoPlusPlus/HexoPlusPlus/main/index.js) 上下载，也可以用[JSdelivr](https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@main/index.js) 加速下载，复制里面的内容。 
 
